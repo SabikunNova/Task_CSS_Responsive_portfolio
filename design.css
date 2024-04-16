@@ -1,0 +1,136 @@
+/* ----body--- */
+body{
+    margin: 30px 100px;
+}
+/* ------My informatin----- */
+.intro-text-section p{
+    font-size: large;
+    color:black;
+}
+.intro-image-section img{
+    width: 200px;
+    height: 300px;
+}
+.intro-section{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 60px 0px;
+    padding: 20px 0px;
+    border-radius: 20px;
+    background-color: azure;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition-duration:1s ;
+}
+.intro-section:hover {
+    background-color: plum;
+}
+/* ------Educational Information---------- */
+.image-section img{
+    width: 75px;
+    height: 75px;
+}
+
+.Education-section{
+    margin: 60px 0px;
+    background-color: gainsboro;
+    padding: 40px 20px;
+    border-radius: 20px;
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+} 
+
+
+.Education-card-section{
+    display: flex;
+    justify-content: space-evenly;
+       
+}
+.Education-card-section div{
+   
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 2px;
+    width: 210px;
+    height: 250px;
+    border-radius: 20px;
+    transition-duration: 1s;
+} 
+.Education-card-section div:hover{
+    background-color:pink;
+}
+
+/* ---------Achivement ------------ */
+.achivement p{
+    font-size: large;
+}
+
+.image img{
+    width: 250px;
+    height: 200px;
+}
+.text-section{
+    color: rgb(68, 29, 29);
+}
+ .achivement div{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 60px 0px;
+    padding: 20px 0px;
+    border-radius: 20px;
+    background-color: rgb(166, 208, 224);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition-duration:1s ;
+} 
+.achivement div:hover{
+    background-color: antiquewhite;
+}
+
+/* -------intro-section------ */
+@media only screen and (max-width: 620px) {
+    
+    .intro-section {
+        display: flex;
+        flex-direction: column;
+     }
+     body {
+        margin: 40px 20px;
+    }
+}
+/* ---------Educational-section------- */
+
+@media only screen and (max-width: 620px) {
+    
+    .Education-section{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 10px;
+     }
+     body {
+        margin: 40px 20px;
+    }
+}
+@media only screen and (max-width: 620px) {
+    
+    .Education-card-section{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 10px;
+     }
+     body {
+        margin: 40px 20px;
+    }
+}
+/*------------ Achivement------- */
+@media only screen and (max-width: 740px) {
+    
+    .achivement div{
+        display: flex;
+        flex-direction: column;
+       
+     }
+     body {
+        margin: 40px 20px;
+    }
+}
